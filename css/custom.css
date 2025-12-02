@@ -1,0 +1,75 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.entry-meta {font-size:.875rem !important;}
+.entry-content {font-size:1.075rem !important;}
+.is-expanded-menu .menu-link {
+    --cnvs-primary-menu-padding-y: calc(calc(var(--cnvs-sticky-header-height) - 87px)* 0.5);
+}
+.boxed-slider {
+    padding-top: 0px;
+}
+.header-wrap-clone {
+    height: 0px;
+}
+#header-wrap{
+	border-bottom: none;
+	
+}
+.header-row {
+display:block;
+}
+.primary-menu-trigger, #page-menu-trigger {
+	--cnvs-menu-trigger-gap: 0.0rem;
+}
+ul.homesubnav  {
+    list-style-type: none;
+}
+ul.homesubnav li{
+		display:inline;
+}
+.emphasis-title h1{
+	font-weight:700 !important;
+}
+
+.display-3 {
+    font-size: calc(1.125rem + 3.3vw);
+    font-weight: 300;
+    line-height: 1.4 !important;
+}
+.button.button-3d h1 {
+color:#fff;
+margin:0px;
+}
+
+@media (max-width: 768px) {
+.menu-link {
+	font-size:1.5rem !important;
+	border:none;
+}
+ul.homesubnav  {
+    list-style-type: none;
+	margin:auto;
+	border:none;
+
+}
+.emphasis-title h1{
+	font-size:1.5rem;
+	font-weight:700 !important;
+}	
+.display-3 {
+    font-size: calc(1.125rem + 3.3vw);
+    font-weight: 300;
+    line-height: 1.6 !important;
+	}
+
+.button.button-3d h1 {
+color:#fff;
+margin:0px;
+}
+	
+}
